@@ -7,3 +7,5 @@ Flask-SQLAlchemy==2.5.1
 Flask-Migrate==2.7.0
 Flask-Script==2.0.6
 GitPython==3.1.15
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
